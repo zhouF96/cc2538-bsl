@@ -66,6 +66,8 @@ The script will automatically select the first serial looking port from a USB to
 Before uploading your image make sure you start the boot loader on the SoC (`select` + `reset` on CC2538DK).
 You can find more info on the different options by executing `python cc2538-bsl.py -h`.
 
+example:  python3 cc2538-bsl.py -e -p /dev/ttyUSB0 -w -v CC1352P_2_20191106.hex
+
 ### Remarks
 
 * Programming multiple SoCs at the same time is not yet supported.
